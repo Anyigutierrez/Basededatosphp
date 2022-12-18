@@ -1,13 +1,13 @@
-<nav class="navbar navbar-expand navbar-dark bg-dark mb-5">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo ROOT ?>/Paciente/index.php" >Acerca de nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?= ROOT ?>/Paciente/add.php">Contactanos</a>
 
-                </li>
+
+
+         <nav >
+         <span style="position: relative; left: -440px">
+            <a href="/index.html"> <img src="<?php echo ROOT ?>/imagenes/Logo.jpg" class="img-logo" width="100px" alt=""></a>
+            <ul>
+                <li>   <a class="nav-link" href="<?php echo ROOT ?>/Paciente/index.php" >Pacientes</a></li>
+                <li> <a class="nav-link" href="<?= ROOT ?>/admi.html">Cerrar sesión</a></li>
 
             </ul>
-
-         </nav>
+            </span>
+        </nav>
